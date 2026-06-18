@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data rule:
+# Ignore all files under data/datasets by default
+data/datasets/*
+
+# Keep only selected dataset files
+!data/datasets/dolphins.gml
+!data/datasets/football.gml
+!data/datasets/polbooks.gml
+
+# Keep all files under data/exact_curvatures
+!data/exact_curvatures/
+!data/exact_curvatures/**
