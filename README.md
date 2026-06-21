@@ -24,7 +24,7 @@ This repository includes implementations of CCOM and experiments on curvature ap
 - Designing a greedy approach to approximate the optimal transport principle
 - Greatly reducing the computational errors on scale-free graphs
 - Acceptable time and memory overhead
-- Superior performance in community detection tasks
+- Comparative analysis under the same curvature-based community detection framework
 
 ## Directory Structure
 
